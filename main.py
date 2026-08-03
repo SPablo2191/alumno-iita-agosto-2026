@@ -3,6 +3,11 @@ alumnos = {
         "nombre" : "pablo",
         "apellido": "sandoval",
         "notas" : [1,2,3]
+    },
+        "23168585" : {
+        "nombre" : "Nicolas",
+        "apellido": "Martinelli",
+        "notas" : [10,9,10]
     }
 }
 
