@@ -11,5 +11,18 @@ alumnos = {
     }
 }
 
-for clave in alumnos:
-    print(alumnos[clave])
+nombre = input("ingrese nombre: ")
+apellido = input("ingrese apellido: ")
+dni = input("ingrese dni: ")
+nro_notas = int(input("ingrese cuantas notas a cargar: "))
+notas = []
+for i in range(nro_notas):
+    notas.append(int(input("ingrese nota obtenida: ")))
+
+nuevo_alumno = {"nombre": nombre, "apellido" : apellido, "notas": notas }
+
+
+alumnos[dni] = nuevo_alumno
+
+print(alumnos)
+
